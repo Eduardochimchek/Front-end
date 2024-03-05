@@ -1,0 +1,51 @@
+.minha-classe-1 {
+    color: red;
+}
+
+#meu-id-1 {
+    color: blue;
+}
+
+#meu-id-2 {
+    color: green;
+}
+
+.orgDadosLago{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.tituloImg{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.orgImgLago{
+    width: 100%;
+    height: 600px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLago {
+    background-image: url("../assets/lago.png");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px; 
+}
